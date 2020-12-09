@@ -1,0 +1,5 @@
+# que archivos queremos que agregue y cuales no
+variables.env
+node_modules
+.DS_Store
+# antes del commit git add . 

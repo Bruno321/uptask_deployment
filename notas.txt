@@ -1,0 +1,26 @@
+ depdendecias de desarrollo solo sirven durante el desarrollo del proyecto --save-dev
+ pacjage-lock guarda las depdendecias de las depdendecias
+ .use() cualquier request corre el codigo
+ app.use('/',(req,res) => {
+    res.send('hola')
+})
+req la consulta por url
+res lo que devuelve el serviodor
+
+mvc patron de diseño 
+permite la separacion de obligaciones, cada pieza solo cumple esa obligacion 
+
+model = encargado de los datos, base de datos y logica para mostrarlos 
+
+view = todo lo que se ve en pantall
+
+controler = el que se comunica entre el modelo y la vista, se encarga de llamar al modelo y pasa los resultados a la vista 
+
+templates engine se habilitan en el archivo principal
+install --save recordar poner eso
+para leer datos de un formulario habilitar body parser
+
+ORM- object relational mapping almacenar y leer datos de bd facil
+usar async await mejor performance
+express-validator para hacer validaciones de datos 
+slug toma cadena de texto 'hola gordo' a 'hola-gordo'
